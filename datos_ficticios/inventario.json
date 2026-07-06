@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "HERR-1001",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Taladro Percutor Bosch",
+    "marca": "Bosch",
+    "categoria": "Herramienta eléctrica",
+    "estado": "Bodega",
+    "historial_mantenimiento": []
+  },
+  {
+    "_id": "HERR-1002",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Esmeril Angular 4.5 pulgadas",
+    "marca": "Makita",
+    "categoria": "Herramienta eléctrica",
+    "estado": "En Terreno",
+    "asignado_a": "15.123.456-7",
+    "historial_mantenimiento": [
+      { "fecha": { "$date": "2026-01-10T14:30:00Z" }, "accion": "Cambio de disco de corte" }
+    ]
+  },
+  {
+    "_id": "HERR-1003",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Sierra Circular 7 1/4 pulgadas",
+    "marca": "DeWalt",
+    "categoria": "Herramienta eléctrica",
+    "estado": "En Reparación",
+    "historial_mantenimiento": [
+      { "fecha": { "$date": "2025-11-05T09:00:00Z" }, "accion": "Cambio de escobillas" },
+      { "fecha": { "$date": "2026-02-18T11:15:00Z" }, "accion": "Ajuste de guía de corte" }
+    ]
+  },
+  {
+    "_id": "HERR-1004",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Rotomartillo SDS Plus",
+    "marca": "Bosch",
+    "categoria": "Herramienta eléctrica",
+    "estado": "Bodega",
+    "historial_mantenimiento": [
+      { "fecha": { "$date": "2025-10-01T08:00:00Z" }, "accion": "Lubricación de mecanismo de percusión" },
+      { "fecha": { "$date": "2025-12-20T10:30:00Z" }, "accion": "Cambio de mandril" },
+      { "fecha": { "$date": "2026-03-02T16:45:00Z" }, "accion": "Revisión de cable de alimentación" }
+    ]
+  },
+  {
+    "_id": "HERR-1005",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Rotomartillo Demoledor",
+    "marca": "Hilti",
+    "categoria": "Herramienta eléctrica",
+    "estado": "Dado de Baja",
+    "historial_mantenimiento": [
+      { "fecha": { "$date": "2025-08-14T13:00:00Z" }, "accion": "Falla irreparable del motor" }
+    ]
+  },
+  {
+    "_id": "HERR-1006",
+    "tipo_activo": "Herramienta",
+    "descripcion": "Amoladora de Banco",
+    "marca": "Stanley",
+    "categoria": "Herramienta eléctrica",
+    "estado": "Bodega",
+    "historial_mantenimiento": []
+  },
+  {
+    "_id": "CONS-2001",
+    "tipo_activo": "Consumible",
+    "descripcion": "Casco de Seguridad Clase B",
+    "marca": "3M",
+    "categoria": "EPP",
+    "stock_actual": 25,
+    "alerta_minima": 10
+  },
+  {
+    "_id": "CONS-2002",
+    "tipo_activo": "Consumible",
+    "descripcion": "Guantes de Cuero Reforzado",
+    "marca": "Truper",
+    "categoria": "EPP",
+    "stock_actual": 5,
+    "alerta_minima": 10
+  },
+  {
+    "_id": "CONS-2003",
+    "tipo_activo": "Consumible",
+    "descripcion": "Lentes de Seguridad Antiempañantes",
+    "marca": "3M",
+    "categoria": "EPP",
+    "stock_actual": 40,
+    "alerta_minima": 20
+  },
+  {
+    "_id": "CONS-2004",
+    "tipo_activo": "Consumible",
+    "descripcion": "Arnés de Seguridad Cuerpo Completo",
+    "marca": "Petzl",
+    "categoria": "EPP",
+    "stock_actual": 3,
+    "alerta_minima": 5
+  },
+  {
+    "_id": "MATR-3001",
+    "tipo_activo": "Material Trazable",
+    "descripcion": "Cable Eléctrico THHN 5x10mm",
+    "numero_serie": "LOTE-CBL-0425",
+    "unidad_medida": "metros",
+    "cantidad_disponible": 300,
+    "trazabilidad": []
+  },
+  {
+    "_id": "MATR-3002",
+    "tipo_activo": "Material Trazable",
+    "descripcion": "Fierro Estriado 8mm",
+    "numero_serie": "LOTE-FE8-0912",
+    "unidad_medida": "unidades",
+    "cantidad_disponible": 150,
+    "trazabilidad": []
+  }
+]

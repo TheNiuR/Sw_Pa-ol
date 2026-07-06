@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "9.876.543-2",
+    "nombre": "Carlos Muñoz Rivas",
+    "rol": "Pañolero",
+    "activo": true
+  },
+  {
+    "_id": "11.222.333-4",
+    "nombre": "Fernanda Soto Lagos",
+    "rol": "Pañolero",
+    "activo": true
+  },
+  {
+    "_id": "7.654.321-9",
+    "nombre": "Ricardo Pizarro Vega",
+    "rol": "Jefe de Obra",
+    "activo": true
+  },
+  {
+    "_id": "13.987.654-5",
+    "nombre": "Valentina Castro Díaz",
+    "rol": "Prevencionista",
+    "activo": true
+  },
+  {
+    "_id": "8.111.222-K",
+    "nombre": "Andrés Fuentes Rojas",
+    "rol": "Administrador",
+    "activo": true
+  },
+  {
+    "_id": "12.345.678-9",
+    "nombre": "Pablo Herrera Contreras",
+    "rol": "Pañolero",
+    "activo": false
+  }
+]
