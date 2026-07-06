@@ -1,4 +1,4 @@
-[
+db.transacciones.insertMany([
   {
     "fecha_hora": { "$date": "2026-03-02T09:15:00Z" },
     "tipo_movimiento": "Salida",
@@ -73,4 +73,4 @@
       { "item_id": "HERR-1004", "cantidad": 1 }
     ]
   }
-]
+])
