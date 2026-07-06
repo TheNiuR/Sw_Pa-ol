@@ -1,4 +1,4 @@
-[
+db.usuarios.insertMany([
   {
     "_id": "9.876.543-2",
     "nombre": "Carlos Muñoz Rivas",
@@ -35,4 +35,4 @@
     "rol": "Pañolero",
     "activo": false
   }
-]
+])
