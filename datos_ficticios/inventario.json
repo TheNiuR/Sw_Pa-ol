@@ -1,4 +1,4 @@
-[
+db.inventario.insertMany([
   {
     "_id": "HERR-1001",
     "tipo_activo": "Herramienta",
@@ -119,4 +119,4 @@
     "cantidad_disponible": 150,
     "trazabilidad": []
   }
-]
+])
